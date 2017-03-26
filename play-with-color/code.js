@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    setInterval(function(){
+    $("#div1").slideDown(2000);
+    $("#div2").slideDown(3000);
+    $("#div3").slideDown(4000);
+    $("#div4").slideDown(5000);
+    $("#div5").slideDown(6000);
+    $("#div6").slideDown(7000);
+    $("#div1").slideUp(7000);
+    $("#div2").slideUp(6000);
+    $("#div3").slideUp(5000);
+    $("#div4").slideUp(4000);
+    $("#div5").slideUp(3000);
+    $("#div6").slideUp(2000);
+    })
+})
